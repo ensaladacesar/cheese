@@ -1,0 +1,44 @@
+/* make the customizations */
+$theme-colors: (
+        "info": tomato,
+        "danger": teal
+);
+/* import bootstrap to set changes */
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap-v4-rtl/scss/bootstrap-rtl.scss";
+// var  & settings
+@import "/base/var";
+@import "/base/settings";
+@import "/base/general";
+//plugins
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "swiper/swiper.scss";
+@import 'swiper/components/navigation/navigation.scss';
+@import 'swiper/components/effect-coverflow/effect-coverflow.scss';
+@import 'swiper/components/effect-fade/effect-fade.scss';
+@import '~video-react/styles/scss/video-react';
+// components
+@import "/components/language";
+@import "/components/intro";
+@import "/components/jukebox";
+@import "/components/jukeboxTemplate";
+@import "/components/recipe";
+@import "/components/quizResult";
+@import "/components/cheeseStory";
+@import "/components/cheesesLovers";
+@import "/components/allRecipes";
+@import "/components/sayCheese";
+@import "/components/quiz";
+// common
+@import "/components/common/header";
+@import "/components/common/extraButtons";
+@import "/components/common/shortcut";
+@import "/components/common/menu";
+@import "/components/common/footer";
+@import "/components/common/socialLegal";
+@import "/components/common/callOut";
+@import "/components/common/related";
+@import "/components/common/yourRecipe";
+@import "/components/common/sign";
+@import "/components/common/mapa";

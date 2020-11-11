@@ -1,0 +1,41 @@
+.intro__main {
+    height: 100%;
+    width: 100%;
+}
+
+.intro__video {
+    // width: 100%;
+    // height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    //z-index: -99;
+
+    // object-fit: cover !important;
+    // @media (min-width: 992px) {
+    //     padding-top: 76.25% !important;
+
+    // }
+}
+
+.intro__logo {
+    z-index: 2;
+    top: 5%;
+    position: fixed;
+}
+
+.intro__skip {
+    z-index: 2;
+    position: fixed;
+    bottom: 5%;
+}
+
+.ytp-share-button {
+    display: none
+}
+
+.video-react-control-bar {
+    display: none !important;
+}

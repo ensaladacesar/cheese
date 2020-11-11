@@ -1,0 +1,25 @@
+.footer__main {
+    background-color: $azulGris;
+
+    img {
+        max-width: 20%;
+
+        @media (min-width: 768px) {
+            max-width: 80%;
+        }
+    }
+
+    p {
+        color: $white;
+        font-size: 0.625rem;
+
+        @media (min-width: 992px) {
+            font-size: 0.75rem;
+        }
+    }
+
+    .footer__copy {
+        font-weight: 700;
+        font-size: 0.75rem;
+    }
+}

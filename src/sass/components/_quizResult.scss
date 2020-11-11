@@ -1,0 +1,223 @@
+.quizResult__main {
+    background-image: url(../../img/quiz_result_bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // padding: 10% 0;
+}
+
+.quizResult__header {
+    background-color: $rosaMedio;
+    // padding-top: 36%;
+    // padding-bottom: 0;
+    // padding-left: 2% !important;
+    color: $amarillo;
+    font-size: 1.875rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-left: -9%;
+
+    // @media (min-width: 991px) {
+    //     margin-left: -9%;
+    // }
+
+    @media (min-width: 992px) {
+        // padding-top: 10%;
+        margin-left: 0;
+    }
+}
+
+.quizResult__pleca__der {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-top: 210px solid $rosaMedio;
+    border-right: 53px solid transparent;
+
+    @media (min-width: 992px) {
+        border-top: 228px solid $rosaMedio;
+        border-right: 81px solid transparent;
+    }
+
+    @media (min-width: 1880px) {
+        border-top: 316px solid $rosaMedio;
+        border-right: 81px solid transparent;
+    }
+}
+
+.quizResult__title {
+    color: $white;
+    font-weight: 900;
+    font-size: 3.75rem;
+    line-height: 49px;
+    padding: 5%;
+
+    @media (min-width: 992px) {
+        margin-left: -4%;
+        margin-top: -12%;
+        line-height: 69px;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: -4%;
+    }
+
+    @media (min-width: 1600px) {
+        margin-left: -8%;
+    }
+
+    @media (min-width: 1700px) {
+        margin-left: -10%;
+    }
+}
+
+.quizResult__share {
+
+    // @media (min-width: 992px) {
+    //     margin-top: -27%;
+    // }
+    @media (min-width: 1270px) {
+        margin-top: -10%;
+    }
+
+    @media (min-width: 1640px) {
+        margin-top: -10%;
+    }
+
+    button {
+        color: $white;
+        font-family: $robotoCon;
+        margin-right: 1%;
+
+        &:hover {
+            color: $white;
+        }
+    }
+
+
+}
+
+.quizResult__personality {
+    background-color: $rosaMedio;
+    margin-top: -37%;
+    padding-top: 47%;
+
+    @media (min-width: 768px) {
+        padding-top: 41%;
+    }
+
+    @media (min-width: 992px) {
+        margin-top: -15%;
+        padding-top: 11%;
+    }
+
+    @media (min-width: 1640px) {
+        margin-top: -12%;
+        padding-top: 10%;
+    }
+
+}
+
+.quizResult__personalityb {
+    background-color: $rosaOscuro;
+    color: $white;
+
+    img {
+        margin-top: -20%;
+        max-width: 80%;
+
+        @media (min-width: 768px) {
+            margin-top: -13%;
+        }
+
+        @media (min-width: 992px) {
+            margin-top: -14%;
+        }
+
+        @media (min-width: 1500px) {
+            margin-top: -11%;
+        }
+
+        // @media (min-width: 1700px) {
+        //     margin-top: -11%;
+        // }
+    }
+
+    p {
+        margin: 0;
+        padding: 10%;
+
+        @media (min-width: 992px) {
+            padding: 2% 13% 0 0;
+        }
+    }
+}
+
+.quizResult__pleca_per_l {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-bottom: 529px solid $rosaOscuro;
+    border-left: 50px solid transparent;
+
+    @media (min-width: 768px) {
+        border-bottom: 398px solid $rosaOscuro;
+    }
+
+    @media (min-width: 992px) {
+        border-bottom: 339px solid $rosaOscuro;
+        border-left: 120px solid transparent;
+    }
+}
+
+.quizResult__pleca_per_r {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    border-bottom: 300px solid $rosaOscuro;
+    border-right: 53px solid transparent;
+
+    @media (min-width: 768px) {
+        border-bottom: 329px solid $rosaOscuro;
+    }
+}
+
+.quizResult__yourCheese {
+    background-color: $rosaOscuro;
+    color: $white;
+
+    @media (min-width: 992px) {
+        padding-left: 10% !important;
+    }
+
+    img {
+        margin-top: -20%;
+        max-width: 80%;
+
+        @media (min-width: 768px) {
+            margin-top: -14%;
+            margin-left: 6%;
+        }
+
+        @media (min-width: 992px) {
+            margin-top: -15%;
+        }
+
+        @media (min-width: 1300px) {
+            margin-top: -17%;
+        }
+
+        // @media (min-width: 1500px) {
+        //     margin-top: -17%;
+        // }
+    }
+
+    p {
+        margin: 0;
+        padding: 10%;
+
+        @media (min-width: 992px) {
+            padding: 5%;
+        }
+    }
+}

@@ -1,0 +1,75 @@
+.general__empty__button {
+    color: $white;
+    font-family: $robotoCon;
+    font-weight: 700;
+    padding: 0.7rem 6rem;
+    background-image: url(../../img/empty_button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all ease-in-out 0.5s;
+    // border-radius: 0;
+
+    &:hover {
+        color: $verdeOscuro2;
+        background-image: url(../../img/empty_button2.svg);
+        // filter: brightness(0.5) saturate(5) contrast(97%);
+    }
+}
+
+.general__fill__button {
+    color: $verdeOscuro2;
+    font-family: $robotoCon;
+    font-weight: 700;
+    padding: 0.7rem 6rem;
+    background-image: url(../../img/fill_button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0;
+    transition: all ease-in-out 0.5s;
+
+    &:hover {
+        color: $verdeOscuro2;
+        background-image: url(../../img/empty_button2.svg);
+        // filter: brightness(0.5) saturate(5) contrast(97%);
+    }
+}
+
+.general__facebookShare {
+    color: $white !important;
+    font-family: $robotoCon !important;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.general__subtitle {
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    @media (min-width: 992px) {        
+        margin-top: -0.2rem;
+    }
+}
+
+.light {
+    color: $white;
+}
+
+.dark {
+    color: $verdeOscuro2;
+}
+
+.loading__container{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #FA6373;
+}

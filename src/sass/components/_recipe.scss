@@ -1,0 +1,231 @@
+.recipe__main {
+    // background-image: url(../../img/recipe_bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // padding: 10% 0;
+    // height: 90vh;
+}
+
+.recipe__title {
+    color: $white;
+    font-weight: 900;
+    font-size: 1.875rem;
+    padding: 25% 0;
+    line-height: 27px;
+
+    @media (min-width: 992px) {
+        padding: 6% 0;
+    }
+}
+
+.recipe__sharebtn {
+    padding-top: 50%;
+    padding-bottom: 5%;
+
+    button {
+        color: $white;
+        font-family: $robotoCon;
+        width: 80%;
+
+        &:hover {
+            color: $white;
+
+        }
+
+        img {
+            padding-left: 1%;
+        }
+    }
+
+}
+
+.recipe__space {
+    background-color: $beigeClaro;
+}
+
+.recipe__titleRecipe {
+    margin-top: -12%;
+
+    @media (min-width: 992px) {
+        margin-top: -5%;
+    }
+}
+
+.recipe__recipe {
+    background-color: $beigeMedio;
+    padding-bottom: 10%;
+}
+
+.recipe__des {
+    color: $verdeOscuro2;
+    padding: 5% 0;
+}
+
+.recipe__pre {
+    color: $verdeOscuro2;
+    background-color: $white;
+    margin: 1% 0;
+
+    p {
+        margin: 0;
+    }
+
+    strong {
+        font-style: italic;
+        font-weight: 700;
+    }
+    @media (min-width: 992px) {
+        margin: 1% 5px 1% 0;
+        &:last-child{
+            margin: 1% 0;
+        }
+    }
+
+}
+
+.recipe__table {
+    background-color: $white;
+    border: none;
+    color: $verdeOscuro2;
+
+    .recipe__tableQH {
+        border-bottom: 3px solid $beigeMedio;
+        border-right: 3px solid $beigeMedio;
+        border-left: none;
+        border-top: none;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            border-bottom: 5px solid $beigeMedio;
+            border-right: 5px solid $beigeMedio;
+        }
+    }
+
+    .recipe__tableUH {
+        border-bottom: 3px solid $beigeMedio;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            border-bottom: 5px solid $beigeMedio;
+        }
+    }
+
+    .recipe__tableIH {
+        border-bottom: 3px solid $beigeMedio;
+        border-right: none;
+        border-left: 3px solid $beigeMedio;
+        border-top: none;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            border-bottom: 5px solid $beigeMedio;
+            border-left: 5px solid $beigeMedio;
+        }
+    }
+
+    .recipe__tableQ {
+        border-bottom: none;
+        border-right: 3px solid $beigeMedio;
+        border-left: none;
+        border-top: none;
+        text-align: center;
+
+        @media (min-width: 992px) {
+            border-right: 5px solid $beigeMedio;
+        }
+    }
+
+    .recipe__tableU {
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+        border-top: none;
+        text-align: center;
+    }
+
+    .recipe__tableI {
+        border-bottom: none;
+        border-right: none;
+        border-left: 3px solid $beigeMedio;
+        border-top: none;
+
+        @media (min-width: 992px) {
+            border-left: 5px solid $beigeMedio;
+        }
+    }
+
+}
+
+.recipe__preparation {
+    background-color: $rosaMedio;
+}
+
+.recipe__titlePre {
+    margin-top: -15%;
+
+    @media (min-width: 992px) {
+        margin-top: -6%;
+    }
+}
+
+.recipe__prepa {
+    color: $white;
+}
+
+.recipe__secShare {
+    color: $white;
+    font-family: $robotoCon;
+    font-weight: 700;
+}
+
+.recipe__panel {
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.recipe__flicking {
+    width: 70%;
+    height: 400px;
+    margin: 0px auto;
+    // background: #eee;
+    // background: rgba(55, 55, 55 0.1);
+    border-radius: 5px;
+}
+
+.recipe__flicking .recipe__panel,
+.recipe__flicking .infinite {
+    position: relative;
+    display: block;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 5px;
+    // background: #f55;
+    height: 120px;
+    text-align: center;
+    line-height: 120px;
+}
+
+.recipe__dots {
+    position: absolute;
+    bottom: -15px;
+    display: flex;
+    flex-direction: row;
+
+    .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0 5px 0 5px;
+        background-color: #ccc;
+    }
+
+    .selected {
+        background-color: red;
+    }
+}

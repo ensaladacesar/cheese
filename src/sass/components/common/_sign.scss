@@ -1,0 +1,21 @@
+.sign__main {
+    color: $white;
+    font-size: 0.9375rem;
+    border-radius: 0;
+    line-height: 1rem;
+    margin: 0;
+
+    p{
+        position: absolute;
+        z-index: 2;
+        padding: 0 11%;
+        margin: 0;
+        @media (min-width: 992px) {
+            padding: 0 13%;
+        }
+    }
+    img{
+        position: relative;
+        z-index: 1;
+    }   
+}

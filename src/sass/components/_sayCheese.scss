@@ -1,0 +1,196 @@
+.say__jumbotron {
+  background-image: url(../../img/quiz_result_bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.say__header {
+  background-color: $beigeOscuro;
+  padding-top: 26%;
+  padding-bottom: 0;
+  color: $rosaClaro;
+  font-size: 1.875rem;
+  font-weight: 900;
+  /* text-transform: capitalize; */
+  line-height: 27px;
+
+  @media (min-width: 768px) {
+    padding-top: 15%;
+  }
+
+  @media (min-width: 992px) {
+    padding-top: 9%;
+  }
+}
+
+.say__social {
+  padding: 5%;
+
+  @media (min-width: 768px) {
+    padding: 2%;
+  }
+
+  img {
+    filter: invert(56%) sepia(52%) saturate(2052%) hue-rotate(315deg) brightness(96%) contrast(107%);
+  }
+}
+
+.say__pleca__der {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 0;
+  border-top: 210px solid $beigeOscuro;
+  border-right: 53px solid transparent;
+
+  @media (min-width: 992px) {
+    border-top: 228px solid $beigeOscuro;
+    border-right: 81px solid transparent;
+  }
+
+  @media (min-width: 1880px) {
+    border-top: 316px solid $beigeOscuro;
+    border-right: 81px solid transparent;
+  }
+}
+
+.say__title {
+  color: $white;
+  font-weight: 900;
+  font-size: 1.875rem;
+  text-align: right;
+  line-height: 27px;
+  margin: 5% 0;
+
+  @media (min-width: 992px) {
+    font-size: 3.375rem;
+    line-height: 52px;
+  }
+
+  @media (min-width: 1025px) {
+    font-size: 4.375rem;
+    line-height: 69px;
+  }
+}
+
+.say__steps {
+  background-color: $rosaMedio;
+  padding-top: 40%;
+  margin-top: -40%;
+
+  @media (min-width: 768px) {
+    padding-top: 0%;
+    margin-top: -10%;
+  }
+
+  .say__img02 {
+    @media (min-width: 768px) {
+      margin-top: -10%;
+    }
+
+    @media (min-width: 1880px) {
+      margin-top: -6%;
+    }
+  }  
+}
+
+.say__step {
+  color: $white;
+  font-size: 0.8375rem;
+  border-radius: 0;
+  padding: 5% 0;
+  line-height: 1rem;
+
+  @media (min-width: 768px) {
+    padding: 0;
+  }
+
+  p {
+    padding: 0;
+    margin: 0;
+  }
+
+  strong {
+    font-weight: 700;
+    font-size: 3.125rem;
+  }
+
+  .say__stepText {
+    position: absolute;
+    z-index: 2;
+    top: 27%;
+    left: 15%;
+    max-width: 66%;
+    width: 100%;
+
+    @media (min-width: 1880px) {
+      left: 9%;
+      max-width: 44%;
+      // &.rtl{
+      //   left: 12%;
+      // }
+    }
+  }
+
+  .say__stepImg {
+    position: relative;
+    z-index: 1;
+    &.rtl{
+      transform: scaleX(-1);
+    }
+  }
+}
+
+.Loading {
+  border: 16px solid #f3f3f3;
+  /* Light grey */
+  border-top: 16px solid #444;
+  /* Blue */
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.say__feed {
+  margin: 0;
+}
+
+
+.say__feed a img {
+  margin: 0;
+  width: 25%;
+  float: left;
+
+  @media (max-width: 768px) {
+    width: 50%;
+  }
+}
+
+.say__instaImage {
+
+  a {
+    img {
+      filter: brightness(75%);
+      transition: all ease-in-out 0.5s;
+    }
+
+    &:hover {
+      img {
+        filter: brightness(100%);
+        transition: all ease-in-out 0.5s;
+
+      }
+    }
+  }
+}

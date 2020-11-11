@@ -1,0 +1,165 @@
+.jukeboxTemplate__header {
+    height: 100%;
+    background-image: url(../../img/jukebox_template_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 43% 0;
+
+    @media (min-width: 992px) {
+        padding: 10% 0;
+    }
+
+    img {
+        position: relative;
+
+        // max-width: 80%;
+        @media (min-width: 992px) {
+            // max-width: 100%;
+            z-index: 1;
+        }
+    }
+}
+
+.jukeboxTemplate__description {
+    background-color: $rosaClaro;
+    color: $white;
+    font-size: 0.9375rem;
+    padding-bottom: 20%;
+
+    @media (min-width: 992px) {
+        padding-bottom: 30%;
+    }
+}
+
+.jukeboxTemplate__p {
+    background-color: $rosaOscuro;
+    margin-top: -30%;
+    padding: 6% !important;
+    border-right: solid 2px $rosaOscuro;
+    // margin-bottom: 5%;
+
+    @media (min-width: 992px) {
+        // padding: 6% !important;
+        margin-top: -13%;
+        z-index: 0;
+    }
+}
+
+.jukeboxTemplate__sharebtn {
+    color: $white;
+    font-family: $robotoCon;
+    padding: 0;
+
+    &:hover {
+        color: $white;
+
+    }
+
+    img {
+        padding-left: 1%;
+    }
+
+}
+
+.pleca__derecha {
+    margin-top: -30%;
+    // margin-bottom: 5%;
+    // margin-left: -1px;
+    border-bottom: 358px solid $rosaOscuro;
+    border-right: 39px solid transparent;
+
+    @media (min-width: 992px) {
+        margin-top: -13%;
+        // border-bottom: 292px solid $rosaOscuro;
+        // border-right: 132px solid transparent;
+        z-index: 0;
+    }
+}
+
+.jukeboxTemplate__know {
+    background-color: $turquesaMedio;
+}
+.jukeboxTemplate__title{
+    @media (min-width: 992px) {        
+        padding: 0% 12%;
+    }
+    p{
+        @media (min-width: 992px) {        
+            text-align: left ;
+        }
+    }
+}
+
+.jukeboxTemplate_img01 {
+    margin-top: -10%;
+
+    @media (min-width: 992px) {
+        margin-top: -23%;
+    }
+}
+
+.jukeboxTemplate__knowBox {
+    background-color: $turquesaOscuro;
+    color: $white;
+    padding: 5%;
+    margin-top: 8%;
+
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        background-color: $turquesaOscuro;
+        width: 100%;
+        height: 4%;
+        z-index: 10;
+        bottom: -3%;
+        left: 0;
+
+        @media (min-width: 992px) {
+            height: 12%;
+            bottom: -11%;
+        }
+
+        @media (min-width: 1024px) {
+            height: 7%;
+            bottom: -6%;
+        }
+    }
+
+    img {
+        max-width: 80%;
+        margin-top: -25%;
+
+        @media (min-width: 992px) {
+            margin-top: -14%;
+        }
+    }
+
+    p {
+        padding: 1% 7%;
+        font-size: 0.9375rem;
+
+        @media (min-width: 992px) {
+            font-size: 1.0625rem;
+            padding: 0% 12%;
+        }
+    }
+
+    strong {
+        font-style: italic;
+        font-size: 1.375rem;
+        font-weight: 900;
+
+        @media (min-width: 992px) {
+            font-size: 1.575rem;
+        }
+    }
+
+    @media (min-width: 992px) {
+        padding: 0%;
+        margin-top: -6%;
+    }
+
+
+}

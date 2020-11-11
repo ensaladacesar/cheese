@@ -1,0 +1,342 @@
+.lovers__main {
+    background-image: url(../../img/lovers_bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // padding: 10% 0;
+}
+
+.lovers__sign {
+    bottom: 86%;
+    position: absolute;
+    z-index: 3;
+}
+
+.lovers__header {
+    background-color: $beigeOscuro;
+    padding-top: 25%;
+    padding-bottom: 0;
+
+    @media (min-width: 768px) {
+        padding-top: 12%;
+    }
+
+    @media (min-width: 992px) {
+        padding-top: 6%;
+    }
+}
+
+.lovers__country {
+    color: $rosaMedio;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+
+    @media (min-width: 992px) {
+        font-size: 7.5rem;
+        left: -19%;
+        position: absolute;
+        bottom: -20%;
+    }
+}
+
+.lovers__country_eng {
+    color: $rosaMedio;
+    font-size: 1.1rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+
+    @media (min-width: 992px) {
+        font-size: 2.7rem;
+        line-height: 2.9rem;
+        left: -19%;
+        position: absolute;
+        bottom: -3.2%;
+    }
+}
+
+.lovers__pleca-izq {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -1px;
+    border-top: 166px solid $beigeOscuro;
+    border-left: 45px solid transparent;
+
+    @media (min-width: 992px) {
+        border-top: 241px solid $beigeOscuro;
+        border-left: 125px solid transparent;
+    }
+
+    @media (min-width: 2020px) {
+        border-top: 270px solid $beigeOscuro;
+        border-left: 81px solid transparent;
+    }
+}
+
+.lovers__arthur {
+    align-items: flex-end;
+}
+.lovers__girl{
+    img{
+      height: 67vh;  
+      @media (min-width: 992px) {
+      height: 37vh;  
+
+      }
+    }
+    
+}
+
+.lovers__map {
+    margin-left: -15%;
+
+    @media (min-width: 992px) {
+        margin-left: 0;
+    }
+}
+
+.lovers__select {
+    margin-top: -60%;
+    padding: 15% 5% 15% 0 !important;
+
+    @media (min-width: 992px) {
+        margin-top: 0;
+        padding: 8% 0 0 0 !important;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .lovers__selectUI {
+        color: $white;
+        border: 0;
+        outline: none;
+        font-weight: 900;
+        text-transform: uppercase;
+        background: transparent;
+
+        option {
+            background-color: $rosaMedio;
+        }
+    }
+
+    .lovers__pick {
+        color: $white;
+        font-weight: 700;
+        font-size: 0.875rem;
+
+    }
+
+    .lovers__number {
+        // font-size: 8.125rem;
+        font-size: 6.325rem;
+        font-weight: 900;
+        color: rgba($white, 0.25);
+        line-height: 97px;
+        -webkit-text-fill-color: rgba($white, 0.25);
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: $white;
+    }
+
+    .lovers__queso {
+        font-size: 1.25rem;
+        color: $white;
+        font-weight: 900;
+    }
+}
+
+.lovers__share {
+    button {
+        font-family: $robotoCon;
+        font-weight: 700;
+        color: $white;
+        padding-right: 2%;
+
+        &:hover {
+            color: $white;
+        }
+    }
+}
+
+.lovers__stores {
+    background:
+        repeating-linear-gradient(to top,
+            transparent 0 calc(27.2875rem),
+            $turquesaMedio calc(27.2875rem) 27.2875rem),
+
+        repeating-linear-gradient(to bottom,
+            transparent 0 calc(27.2875rem),
+            $turquesaMedio calc(27.2875rem) 50027.2875rem) $turquesaOscuro;
+
+    .lovers__bg {
+        &:nth-child(even) {
+            background-color: $turquesaOscuro;
+        }
+
+        &:nth-child(odd) {
+            background-color: $turquesaMedio;
+        }
+    }
+
+    .lovers__odd,
+    .lovers__even {
+        height: 26.6875rem;
+        // width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 9.375rem;
+
+        p {
+            padding-top: 5rem;
+        }
+
+    }
+
+    .lovers__store {
+        height: 14.6875rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding-top: 2rem;
+
+        img {
+            max-width: 200px;
+        }
+
+        p {
+
+            color: #1D7675;
+
+            padding-top: 3rem;
+
+            @media (min-width: 992px) {
+                padding-top: 3rem;
+            }
+
+            &:hover {
+                color: #1D7675;
+                cursor: pointer;
+            }
+        }
+
+        @media (min-width: 992px) {
+            height: 26.6875rem;
+            padding-top: 9.375rem;
+
+
+        }
+
+        // &:nth-child(even){
+        //     background-color: $turquesaOscuro;
+        // }
+        // &:nth-child(odd){
+        //     background-color: $turquesaMedio;        
+        // }
+    }
+
+    // .lovers__odd{
+    //     background-color: $turquesaMedio;        
+    // }
+    // .lovers__even{
+    //     background-color: $turquesaOscuro;
+    // }
+    .lovers__cheeses {
+        position: absolute;
+        left: 0;
+        top: 0;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: auto;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba($verdeOscuro, 0.8);
+
+        ul {
+            padding: 0;
+            margin-top: 1rem;
+        }
+
+        li {
+            list-style: none;
+            color: #ffffff;
+        }
+
+        @media (min-width: 992px) {
+            flex-wrap: unset;
+            overflow: none;
+        }
+    }
+
+}
+
+.lovers__brands {
+    background-image: url(../../img/lovers_brand_bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20% 0;
+
+    @media (min-width: 992px) {
+        padding: 8% 0;
+
+    }
+
+    .slick-dots {
+        li {
+            button {
+                &::before {
+                    color: rgba($white, 0.3);
+                }
+            }
+        }
+
+        .slick-active {
+            button {
+                &::before {
+                    color: rgba($white, 1);
+                }
+            }
+        }
+
+    }
+}
+
+.lovers__mainSlider {
+    .slick-prev {
+        left: -6%;
+        z-index: 200;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            background-image: url(../../img/lovers_izq.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;            
+        }
+    }
+
+    .slick-next {
+        right: -6%;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            background-image: url(../../img/lovers_der.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;            
+        }
+    }
+}

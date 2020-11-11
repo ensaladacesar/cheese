@@ -1,0 +1,45 @@
+.extra__cheeselovers,
+.extra__saycheese {
+    position: fixed;
+    z-index: 2005;
+    bottom: 2%;
+    display: flex;
+    width: auto;
+    text-align: center;
+    display: block;
+    transition: all ease-in-out 0.5s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    @media (min-width: 992px) {
+        bottom: 5%;
+    }
+
+    &:hover {
+        background-image: url('../../../img/bgOver.svg');
+    }
+}
+
+.extra__cheeselovers {
+    left: 2%;
+    width: 15%;
+
+    @media (min-width: 992px) {
+        left: 4%;
+        width: 6%;
+
+    }
+
+}
+
+.extra__saycheese {
+    right: 2%;
+    width: 15%;
+
+    @media (min-width: 992px) {
+        right: 1%;
+        width: 6%;
+
+    }
+}

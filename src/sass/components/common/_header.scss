@@ -1,0 +1,43 @@
+.header__logo,
+.header__menu {
+    position: fixed;
+    z-index: 2005;
+    top: 1%;
+    display: flex;
+    width: auto;
+    overflow: hidden;
+    @media (min-width: 992px) {
+        top: 5%;
+    }
+}
+
+.header__logo {
+    left: -1%;
+    width: 20%;
+    @media (min-width: 992px) {
+        left: 4%;
+    }
+}
+
+.header__menu {
+    right: 2%;
+    padding-top: 3%;
+
+    @media (min-width: 992px) {
+        right: 3%;
+    }
+}
+
+.header__close, .header__open {
+    outline: none;
+    border: 0;
+    box-shadow: unset !important;
+}
+
+.header__menu_active{
+    opacity: 1;
+    transition: opacity ease-in-out 0.3s;
+}
+.header__menu_inactive{
+    opacity:0;
+}

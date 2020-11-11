@@ -1,0 +1,33 @@
+.callOut__main{
+    background-image: url(../../../img/rectangle_26.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 9%;
+
+    h4{
+        color: $white;
+        font-weight: 900;
+        font-size: 1.375rem;
+    }
+    a{
+        text-transform: uppercase;
+    }
+}
+
+.callOut__main2{
+    background-image: url(../../../img/call_to_bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 9%;
+
+    h4{
+        color: $white;
+        font-weight: 900;
+        font-size: 1.375rem;
+    }
+    a{
+        text-transform: uppercase;
+    }
+}
